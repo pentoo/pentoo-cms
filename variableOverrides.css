@@ -1,0 +1,67 @@
+/* :root { */
+/*   --body-bg: #222225; */
+/*   --body-text: #9ca8bd; */
+
+/*   --component-bg: #222225; */
+/*   --component-text-color: #fff; */
+
+/*   /1* Brand colors *1/ */
+/*   --brand-darkest: #000; */
+/*   --brand-lightest: #fff; */
+/*   --gray-base: #b2b2be; */
+/*   --brand-primary: #285c73; */
+/*   /1* --brand-primary--inverted: #a3abba; *1/ */
+/*   --brand-primary--inverted: #fff; */
+/*   --brand-secondary: #a3abba; */
+/*   /1* --brand-secondary--inverted: #62c4ff; *1/ */
+/*   --brand-secondary--inverted: #fff; */
+
+/*   /1* Typography *1/ */
+/*   --font-family-sans-serif: Menlo, Monaco, Lucida Console, Liberation Mono, */
+/*     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; */
+/*   --font-family-monospace: Menlo, Monaco, Lucida Console, Liberation Mono, */
+/*     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; */
+/*   --font-size-base: 20px; */
+/*   --text-color: var(--brand-primary); */
+/*   --body-bg: var(--brand-secondary--inverted); */
+
+/*   /1* Main Navigation *1/ */
+/*   --main-navigation-color: var(--brand-primary); */
+/*   --main-navigation-color--inverted: var(--brand-primary--inverted); */
+
+/*   /1* FOrms *1/ */
+/*   --input-color: #fff; */
+/*   --input-border-color: var(--brand-lightest); */
+
+/*   --default-button-color: #145eda; */
+/*   --default-button-color--inverted: #fff; */
+/*   --default-button-color--hover: #156dff; */
+/*   --default-button-color--active: #156dff; */
+/*   /1* --input-bg: #1a202e; *1/ */
+
+/*   /1* Colors *1/ */
+/*   --preview-placeholder-color: color( */
+/*     var(--component-bg) contrast(80%) alpha(10%) */
+/*   ); */
+/*   --component-border-color: color(var(--component-bg) contrast(80%) a(20%)); */
+/*   --backdrop-color: color(var(--brand-darkest) a(12%)); */
+/* } */
+
+:root {
+  --body-bg: #222225;
+  --text-color: #eee;
+  --brand-secondary: #a3abba;
+  --brand-primary: #285c73;
+  --component-bg: #222225;
+  --component-border-color: #777;
+  --component-box-shadow: 0 1px 3px color(var(--black) a(50%));
+  --state-danger-color: #f8495f;
+  /* Main Navigation */
+  --main-navigation-color: var(--brand-primary);
+  --main-navigation-color--inverted: var(--brand-primary--inverted);
+  /* Typography */
+  --font-family-sans-serif: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  --font-family-monospace: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
